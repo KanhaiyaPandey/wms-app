@@ -33,7 +33,6 @@ class SKUMapper:
                 raise ValueError("CSV must contain a 'SKU' column.")
 
             df["MSKU"] = df["SKU"].apply(self.map_sku)
-
             # Save to output
             output_dir = "output"
             os.makedirs(output_dir, exist_ok=True)
