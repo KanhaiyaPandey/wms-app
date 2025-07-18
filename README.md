@@ -93,7 +93,7 @@ warehouse-sku-tools/
 ├── python-app/
 │   ├── main.py
 │   ├── sku_mapper.py
-│   └── combo_handler.py (coming soon)
+│   
 │
 ├── frontend/
 │   ├── public/
